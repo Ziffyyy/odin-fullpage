@@ -105,7 +105,7 @@ img.image {
 
 .cardtext {
     font-size: 18px;
-    color: #9fa1a3;
+    color: #797979;
     text-align: center;
 }
 
@@ -143,9 +143,11 @@ span.weak {
     font-size: 36px;
     font-weight: light;
     font-style: italic;
+    color: #1F2937;
 }
 
 .quoteauthor {
     font-size: 28px;
     align-self: flex-end;
+    color: #1F2937;
 }
