@@ -81,7 +81,7 @@ img.image {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 32px;
+    padding: 54px 32px;
     gap: 24px;
     margin-bottom: 24px;
 }
@@ -128,7 +128,7 @@ span.weak {
     justify-content: center;
     align-items: center;
     background-color: #E5E7EB;
-    padding: 64px;
+    padding: 128px 64px;
 }
 
 .quotecontainer {
@@ -150,4 +150,49 @@ span.weak {
     font-size: 28px;
     align-self: flex-end;
     color: #1F2937;
+}
+
+.actionsection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 80px;
+}
+
+.actioncontainer {
+    background-color: #3882F6;
+    border-radius: 12px;
+    padding: 40px 80px;
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+}
+
+.actiontext-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+.actiontext-content {
+    color: #F9FAF8;
+    font-weight: lighter;
+}
+
+button.actionbutton {
+    border: 2px solid #F9FAF8;
+    font-size: 18px;
+}
+
+.footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+.footer-text {
+    color: #F9FAF8;
+    font-size: 20px;
 }
