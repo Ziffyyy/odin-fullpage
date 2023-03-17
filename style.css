@@ -60,7 +60,7 @@ button {
     width: fit-content;
 }
 
-img {
+img.image {
     width: 500px;
 }
 
@@ -74,4 +74,50 @@ img {
 .herosecondary,
 .herotext {
     width: 500px;
+}
+
+.infosection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 32px;
+    gap: 24px;
+}
+
+.cardset {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.infotitle {
+    font-size: 36px;
+    font-weight: 1000;
+    color: #1F2937;
+}
+
+.card {
+    width: 300px;
+}
+
+.cardtext {
+    font-size: 18px;
+    color: #9fa1a3;
+    text-align: center;
+}
+
+.goat {
+    width: 300px;
+    height: 214px;
+}
+
+span {
+    font-weight: bold;
+    color: #1F2937;
+}
+
+span.weak {
+    font-weight: lighter;
 }
