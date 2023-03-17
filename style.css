@@ -5,13 +5,22 @@ body {
     flex-direction: column;
     font-family: Roboto, sans-serif;
 }
-.header,
-.container {
+.header {
     display: flex;
     background-color: #1F2937;
     align-items: center;
     justify-content: space-around;
     padding: 16px;
+}
+
+.container {
+    display: flex;
+    background-color: #1F2937;
+    align-items: center;
+    justify-content: center;
+    gap: 320px;
+    width: 100%;
+    padding: 32px;
 }
 
 ul {
@@ -48,4 +57,21 @@ button {
     border-radius: 8px;
     padding: 8px 16px;
     color: #F9FAF8;
+    width: fit-content;
+}
+
+img {
+    width: 500px;
+}
+
+.left-stuff {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.herosecondary,
+.herotext {
+    width: 500px;
 }
