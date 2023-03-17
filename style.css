@@ -83,6 +83,7 @@ img.image {
     flex-direction: column;
     padding: 32px;
     gap: 24px;
+    margin-bottom: 24px;
 }
 
 .cardset {
@@ -120,4 +121,31 @@ span {
 
 span.weak {
     font-weight: lighter;
+}
+
+.quotesection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    padding: 64px;
+}
+
+.quotecontainer {
+    justify-content: space-between;
+    flex-wrap:wrap;
+    width: 50%;
+    display: flex;
+    gap: 8px;
+}
+
+.quotetext {
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+}
+
+.quoteauthor {
+    font-size: 28px;
+    align-self: flex-end;
 }
